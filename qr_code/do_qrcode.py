@@ -1,5 +1,6 @@
 import qrcode
 
+# pip install qrcode
 # version: v 1-40 (v-1)*4+21
 # error_correction 容错系数 L7 M15 Q25 H30
 qr = qrcode.QRCode(
