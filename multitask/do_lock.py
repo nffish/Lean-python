@@ -16,7 +16,7 @@ def change_it(n):
 
 def run_thread(n):
     for i in range(10000):
-        # 要线获取锁:
+        # 要先获取锁:
         lock.acquire()
         try:
             change_it(n)
